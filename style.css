@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    height:100%;
+}
+
+.calculator-main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.calculator-rows {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.calcDisplay {
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+
+.calcButton {
+    background-color: lightgray;
+    padding: 15px 15px;
+    height: 50px;
+    width: 60px;
+}
